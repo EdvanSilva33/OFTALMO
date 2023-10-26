@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+header, .menu{
+    background-color: #abd4d8;
+}
+.top{
+ margin: 0 auto;
+max-width: 1224px;
+width: 100%;
+padding: 16px;
+display: flex;
+justify-content: space-between;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+.icon .bi{
+    font-size: 25px;
+}
+.bi-telephone{
+    font-weight: bold;
+    color: black;
+}
+.nb{
+    padding: 0;
+    max-width: 2224px;;
+    width: 100%;
+}
+.vcolor{
+    color: black;
+    background-color: black;
+}
+.nav-link{
+    font-size: 18px;
+    font-weight: bold;
+}
